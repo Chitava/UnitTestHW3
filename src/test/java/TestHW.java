@@ -5,10 +5,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class TestHW {
     MainHW newExempl = new MainHW();
-    UserRepository repo = new UserRepository();
-
-
-
 
     @Test
     void testEvent() {
