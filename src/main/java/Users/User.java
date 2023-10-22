@@ -27,4 +27,12 @@ public class User {
         public void setAuthenticate(boolean authenticate) {
             isAuthenticate = authenticate;
         }
+
+    public String getName() {
+        return name;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
